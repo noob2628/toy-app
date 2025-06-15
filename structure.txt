@@ -1,0 +1,11 @@
+📁 toy-app/
+├── 📁 app/
+│   ├── 📁 api/
+│   │   └── 📁 toys/
+│   │       ├── 📄 route.js        (GET all toys, POST new toy)
+│   │       └── 📁 [id]/
+│   │           └── 📄 route.js    (GET/UPDATE/DELETE single toy)
+│   └── 📄 page.js                 (Main page)
+├── 📁 lib/
+│   └── 📄 db.js                   (Database connection)
+└── 📄 .env.local                  (Database password)
